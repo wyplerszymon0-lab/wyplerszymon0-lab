@@ -13,7 +13,7 @@ Software developer from Poland working on **applied machine learning**, **LLM ev
 
 ## Tech
 
-**Languages:** Python · TypeScript / JavaScript · Go · C#
+**Languages:** Python | SQL | TypeScript / JavaScript · Go · C#
 **ML:** PyTorch · TensorFlow · scikit-learn · reinforcement learning · LLM APIs
 **Engineering:** Docker · Kubernetes · GitHub Actions · REST APIs · testing (pytest, xUnit)
 
