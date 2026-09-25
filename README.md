@@ -19,4 +19,4 @@ Software developer from Poland working on **applied machine learning**, **LLM ev
 
 ## Contact
 
-📍 Poland
+📍 Poland · [LinkedIn](https://www.linkedin.com/in/szymon-wypler-bb7650394/)
