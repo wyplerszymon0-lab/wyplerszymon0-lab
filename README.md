@@ -1,6 +1,8 @@
 # Hi, I'm Szymon Wypler 👋
 
-Software developer from Poland working on **applied machine learning**, **LLM evaluation** and **data-driven tools** for real-world problems.
+**Junior software developer** from Poland, working on **applied machine learning**, **LLM evaluation** and **data-driven tools** for real-world problems.
+
+> 🔎 **Open to work:** I'm looking for my **first professional role**, a junior position or an internship in software development, machine learning or data. The projects below show how I work: measured results instead of claims, tests and CI on every repository, and every change going through a pull request. Get in touch on [LinkedIn](https://www.linkedin.com/in/szymon-wypler-bb7650394/).
 
 ## Featured projects
 
