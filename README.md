@@ -17,7 +17,7 @@
 
 - **Languages:** Python, SQL | Main |,  TypeScript, JavaScript, Go, C# | Additionall |
 - **GIS & geodesy:** geodetic survey data (field surveys) | Leaflet web maps | GeoJSON | satellite climate data (NASA POWER)
-- **ML:** PyTorch | TensorFlow | scikit-learn | reinforcement learning | LLM APIs
+- **ML:** CLaude Code | PyTorch | TensorFlow | scikit-learn | reinforcement learning | LLM APIs
 - **Engineering:** Docker | Kubernetes | GitHub Actions | REST APIs | testing (pytest, xUnit)
 
 ## Contact
