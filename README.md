@@ -8,17 +8,19 @@
 
 | Project | What it is | Stack |
 |---|---|---|
+| [**PV Site Screening — Poland**](https://github.com/wyplerszymon0-lab/pv-site-screening-pl) | Finds where a ground-mounted solar farm could go in any Polish *gmina*, from open data only: PRG boundaries, NMT terrain (5 m slope/aspect), GDOŚ protected areas, OSM or BDOT10k exclusions, a weighted suitability score and NASA POWER yield. Validated against farms already built; styled QGIS project and print map; PostGIS version of the overlay. | Python, GeoPandas, rasterio, PostGIS, QGIS (PyQGIS) |
 | [**Solar Site Intelligence**](https://github.com/wyplerszymon0-lab/Solar-site-intelligence) · [live demo](https://wyplerszymon0-lab.github.io/Solar-site-intelligence/) | Turns raw geodetic survey data into photovoltaic site assessments: interactive map, optimal tilt, yield and row-spacing estimates. Built from my experience doing PV site surveys during an Erasmus+ internship in Portugal. | JavaScript, Leaflet |
-| [**Reinforcement Learning Agents**](https://github.com/wyplerszymon0-lab/reinforcement-learning-agents) | DQN (Double, Dueling) and PPO (GAE, clipped objective) written from scratch in PyTorch. Trained on CartPole and LunarLander over 3 seeds, with GIFs and learning curves. | Python, PyTorch, Gymnasium |
+| [**Reinforcement Learning Agents**](https://github.com/wyplerszymon0-lab/reinforcement-learning-agents) | DQN (Double, Dueling) and PPO (GAE, clipped objective) written from scratch in PyTorch, with vectorised environments and TensorBoard logging. Both solve LunarLander on 3 of 3 seeds; the PPO tuning history, including the change that made it worse, is in the results. | Python, PyTorch, Gymnasium |
 | [**CryptoPulse**](https://github.com/wyplerszymon0-lab/cryptopulse) · [live dashboard](https://wyplerszymon0-lab.github.io/cryptopulse/) | Crypto technical-analysis engine with a lookahead-free backtester and walk-forward optimisation that reports only out-of-sample results. A GitHub Action rebuilds the dashboard daily. Zero dependencies. | Go, GitHub Actions/Pages |
-| [**LLM State-Consistency Audit**](https://github.com/wyplerszymon0-lab/llm-state-consistency-audit) · [live leaderboard](https://wyplerszymon0-lab.github.io/llm-state-consistency-audit/) | Benchmark that checks whether LLM-generated programs keep global state consistent across dependent operations. Three simulations, a multi-model runner, strict pass/fail scoring. | Python |
+| [**LLM State-Consistency Audit**](https://github.com/wyplerszymon0-lab/llm-state-consistency-audit) · [live leaderboard](https://wyplerszymon0-lab.github.io/llm-state-consistency-audit/) | Benchmark that checks whether LLM-generated programs keep global state consistent across dependent operations. Four business simulations, submissions run in a locked-down Docker sandbox, Wilson confidence intervals, and a prompt study (a worked example did not help small models). | Python |
 
 ## Tech
 
-- **Languages:** Python, SQL | Main |,  TypeScript, JavaScript, Go, C# | Additionall |
-- **GIS & geodesy:** geodetic survey data (field surveys) | Leaflet web maps | GeoJSON | satellite climate data (NASA POWER)
-- **ML:** CLaude Code | PyTorch | TensorFlow | scikit-learn | reinforcement learning | LLM APIs
-- **Engineering:** Docker | Kubernetes | GitHub Actions | REST APIs | testing (pytest, xUnit)
+- **Languages:** main: Python, SQL · also: TypeScript / JavaScript, Go, C#
+- **GIS & geodesy:** QGIS (PyQGIS) | GeoPandas, rasterio, Shapely | PostGIS | PL-1992 / PL-2000 | Polish open geodata: PRG, NMT, BDOT10k, GDOŚ (WFS/WCS) | geodetic field surveys | Leaflet web maps
+- **ML:** PyTorch | scikit-learn | reinforcement learning | LLM APIs and evaluation
+- **AI-assisted development:** Claude Code
+- **Engineering:** Docker | GitHub Actions (CI, Pages, releases) | REST APIs | testing (pytest, Go tests, node:test)
 
 ## Contact
 
